@@ -195,7 +195,7 @@ def torch_to_np(img_var):
     return img_var.detach().cpu().numpy()[0]
 
 
-def optimize(optimizer_type, parameters, closure, LR, num_iter):
+def  optimize(optimizer_type, parameters, closure, LR, num_iter):
     """Runs optimization loop.
 
     Args:
