@@ -31,4 +31,4 @@ def amplify_rec(filepath, destpath, pt1, pt2,  height, width = 143, ratio = 2,  
 # amplify_rec('optimal for lena/noisy_lena.png', 'amp_lena/noisy_lena.png', (180, 160), (310, 270))
 amplify_rec('zebra_dip_optimal.png', 'zebra_ampli_dip.png', (80, 120), (400, 120), 50)
 amplify_rec('zebra_pdp_optimal.png', 'zebra_ampli_pdp.png', (80, 120), (400, 120), 50)
-amplify_rec('data/sr/zebra_.png', 'zebra_original.png', (80, 120), (400, 120), 50)
+amplify_rec('original.png', 'zebra_original.png', (80, 120), (400, 120), 50)
